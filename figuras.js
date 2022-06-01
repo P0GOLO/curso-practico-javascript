@@ -39,6 +39,25 @@ console.groupEnd("");
 
 // Código del círculo
 console.group("Circulos");
-const 
+
+// Radio
+const radioCirculo = 4;
+console.log("El radio del circulo es: " + radioCirculo + "cm");
+
+// Diámetro
+const diametroCirculo = radioCirculo * 2;
+console.log("El diámetro del circulo es: " + diametroCirculo + "cm");
+
+// PI
+const PI = Math.PI;
+console.log("PI es: " + PI);
+
+// Circunferencia
+const perimetroCirculo = diametroCirculo * PI;
+console.log("El perímetro del circulo es: " + perimetroCirculo + "cm");
+
+// Área
+const areaCirculo = (radioCirculo * radioCirculo) * PI
+console.log("El área del círculo es :" + areaCirculo + "cm^2");
 
 console.groupEnd("");
