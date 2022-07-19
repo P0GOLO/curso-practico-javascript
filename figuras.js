@@ -76,11 +76,12 @@ console.groupEnd("");
 
 
 // Aquí interactuamos con el HTML
+//Cuadrado
 function calcularPerimetroCuadrado() {
     const input = document.getElementById("InputCuadrado")
     const value = input.value;  //Solo quiero el valor
 
-    const perimetro = perimetroCuadrado(value); //Invocas una función 
+    const perimetro = perimetroCuadrado(value); //Invocas una función y como parametro le pones el valor
     alert(perimetro);
 }
 function calcularAreaCuadrado() {
@@ -88,5 +89,20 @@ function calcularAreaCuadrado() {
     const value = input.value;  //Solo quiero el valor
 
     const area = areaCuadrado(value);
+    alert(area);
+}
+//Triángulo
+function calcularPerimetroTriangulo() {
+    const input = document.getElementById("InputTriangulo")
+    const value = input.value;  //Solo quiero el valor
+
+    const perimetro = perimetroTriangulo(value); //Invocas una función y como parametro le pones el valor
+    alert(perimetro);
+}
+function calcularAreaTraingulo() {
+    const input = document.getElementById("InputTriangulo")
+    const value = input.value;  //Solo quiero el valor
+
+    const area = areaTriangulo(value);
     alert(area);
 }
