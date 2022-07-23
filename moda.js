@@ -25,3 +25,12 @@ lista1.map(
 );
 //Una lista que por medio de lista.map > función > condicionales
 //hacemos que cuente la catidad de "núemros repetidos"
+
+
+const lista1Array = Object.entries(lista1Count).sort(
+    function (elementoA, elementoB) {
+        return elementoA[1] - elementoB[1];
+    } 
+);
+
+const moda = lista1Array[lista1Array.length - 1];
